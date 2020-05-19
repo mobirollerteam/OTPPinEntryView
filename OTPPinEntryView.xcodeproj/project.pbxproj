@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6027A3224745462000B1877 /* OTPPinEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6027A3024745462000B1877 /* OTPPinEntryView.swift */; };
+		B6027A3324745462000B1877 /* OTPPinEntryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6027A3124745462000B1877 /* OTPPinEntryTextField.swift */; };
 		B6B7C4EE24742F9D00919F4C /* OTPPinEntryView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B7C4EC24742F9D00919F4C /* OTPPinEntryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6B7C5182474329000919F4C /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B7C5172474329000919F4C /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6027A3024745462000B1877 /* OTPPinEntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPPinEntryView.swift; sourceTree = "<group>"; };
+		B6027A3124745462000B1877 /* OTPPinEntryTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPPinEntryTextField.swift; sourceTree = "<group>"; };
 		B6B7C4E924742F9D00919F4C /* OTPPinEntryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPPinEntryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B7C4EC24742F9D00919F4C /* OTPPinEntryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPPinEntryView.h; sourceTree = "<group>"; };
 		B6B7C4ED24742F9D00919F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6B7C5172474329000919F4C /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,8 @@
 		B6B7C4F524742FA700919F4C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				B6B7C5172474329000919F4C /* Test.swift */,
+				B6027A3124745462000B1877 /* OTPPinEntryTextField.swift */,
+				B6027A3024745462000B1877 /* OTPPinEntryView.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -159,7 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6B7C5182474329000919F4C /* Test.swift in Sources */,
+				B6027A3324745462000B1877 /* OTPPinEntryTextField.swift in Sources */,
+				B6027A3224745462000B1877 /* OTPPinEntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

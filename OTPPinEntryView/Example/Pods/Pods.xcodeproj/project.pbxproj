@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0626EAF7E19FDC0B66BEA2B127B6BB47 /* Pods-OTPPinEntryViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A284ACF483E9D06E4BC1DF9BCFEAA3A9 /* Pods-OTPPinEntryViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		165AD07067171BC219EAB230DE4C0F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		21443A4F8E48DB7F054610097AF10FA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2BA405168795340E657D689C33269FB6 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9149B357C3485E7611F5212240C766F /* Test.swift */; };
-		4515F48E7CB0474121E0D4FD876A2F4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		79E983A44D07CD0839A8162D7519125D /* OTPPinEntryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AF974CFC12D08F949C7409D68DAB08 /* OTPPinEntryView-dummy.m */; };
-		B221358E1444E951B0B3C1A5079AE346 /* OTPPinEntryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63227D4E4752480B9BEB22FCD5B99E23 /* OTPPinEntryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E89E42C5E579639706D4FF4C9EC162A /* OTPPinEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE2A56E8611A61C0AAC5654C6D96357 /* OTPPinEntryView.swift */; };
+		73E6A2179D8FC4F9620073070B916658 /* OTPPinEntryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 803CAC0A3FB50CD3ABAF7EA108B411D7 /* OTPPinEntryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8399BFDB31166A7DDFAC1BC32B19573F /* OTPPinEntryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C438392EEDE2A3F9FF4AA288601D31F /* OTPPinEntryTextField.swift */; };
+		8627DB8EFAAE49F3153EC86326DA7656 /* OTPPinEntryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD79EB74BD32C6F89D5B2CFC207D155 /* OTPPinEntryView-dummy.m */; };
 		D53DD6DBE9366B298A3CEA3C3E8A95C0 /* Pods-OTPPinEntryViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 017FF4092C431DD198B85D9057EC502A /* Pods-OTPPinEntryViewExample-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -28,30 +29,41 @@
 
 /* Begin PBXFileReference section */
 		017FF4092C431DD198B85D9057EC502A /* Pods-OTPPinEntryViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTPPinEntryViewExample-dummy.m"; sourceTree = "<group>"; };
-		157072A11297A3FDCC6F682100A121BF /* OTPPinEntryView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OTPPinEntryView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		14655144941E776DAA6B1F577C4BC92D /* OTPPinEntryView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPPinEntryView.debug.xcconfig; sourceTree = "<group>"; };
 		1D17CF172B91FB9F19F868688072C906 /* Pods-OTPPinEntryViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTPPinEntryViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F2D10820DA7F2991954ED887F23E712 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2399B118E2AF5757DCECFDB5E52EF3F1 /* Pods-OTPPinEntryViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTPPinEntryViewExample-frameworks.sh"; sourceTree = "<group>"; };
+		2BD79EB74BD32C6F89D5B2CFC207D155 /* OTPPinEntryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTPPinEntryView-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		33A7D66F8342D94F31FA86DB89EE46C9 /* OTPPinEntryView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTPPinEntryView.modulemap; sourceTree = "<group>"; };
+		3C438392EEDE2A3F9FF4AA288601D31F /* OTPPinEntryTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTPPinEntryTextField.swift; path = OTPPinEntryView/Source/OTPPinEntryTextField.swift; sourceTree = "<group>"; };
+		4CE2A56E8611A61C0AAC5654C6D96357 /* OTPPinEntryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTPPinEntryView.swift; path = OTPPinEntryView/Source/OTPPinEntryView.swift; sourceTree = "<group>"; };
 		626D38DAD6AFBF96F9C16DA3B020AD43 /* Pods-OTPPinEntryViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTPPinEntryViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		63227D4E4752480B9BEB22FCD5B99E23 /* OTPPinEntryView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPPinEntryView-umbrella.h"; sourceTree = "<group>"; };
-		7ABF2FDBF8E7F5683FD95B71190D2D4E /* OTPPinEntryView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPPinEntryView.release.xcconfig; sourceTree = "<group>"; };
+		77629792BF1718085E6A09BEE2FCF3CE /* OTPPinEntryView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTPPinEntryView.modulemap; sourceTree = "<group>"; };
+		7EB1F0711044D76B4EE39ED3616696A6 /* OTPPinEntryView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OTPPinEntryView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		803CAC0A3FB50CD3ABAF7EA108B411D7 /* OTPPinEntryView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPPinEntryView-umbrella.h"; sourceTree = "<group>"; };
 		848D16E45714894223B2F10C238297B8 /* Pods-OTPPinEntryViewExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTPPinEntryViewExample-Info.plist"; sourceTree = "<group>"; };
 		9CD50E8A3E5711EF134D9F91EDA95EDE /* Pods-OTPPinEntryViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTPPinEntryViewExample.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A284ACF483E9D06E4BC1DF9BCFEAA3A9 /* Pods-OTPPinEntryViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTPPinEntryViewExample-umbrella.h"; sourceTree = "<group>"; };
-		A6AF974CFC12D08F949C7409D68DAB08 /* OTPPinEntryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTPPinEntryView-dummy.m"; sourceTree = "<group>"; };
-		A72B883375A8A189A4AB902D97C6D553 /* OTPPinEntryView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OTPPinEntryView-Info.plist"; sourceTree = "<group>"; };
-		B489C404EF323683779FCEE61077090A /* OTPPinEntryView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPPinEntryView.debug.xcconfig; sourceTree = "<group>"; };
+		A4D142F31536AD0E762966D06E263E2B /* OTPPinEntryView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPPinEntryView.release.xcconfig; sourceTree = "<group>"; };
+		C2782CF59080ED578AAF3704849A5CB4 /* OTPPinEntryView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OTPPinEntryView-Info.plist"; sourceTree = "<group>"; };
 		C89F77BCA6759749FC23A65854A9999E /* Pods-OTPPinEntryViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPPinEntryViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		CB97A366F501876157D84529B295A772 /* OTPPinEntryView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPPinEntryView-prefix.pch"; sourceTree = "<group>"; };
+		D13A6F87681F27990B7D84A13AF2FFE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E8D2ED438D7C3D84193B2C4F9244C7FA /* OTPPinEntryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTPPinEntryView.framework; path = OTPPinEntryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9149B357C3485E7611F5212240C766F /* Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Test.swift; path = OTPPinEntryView/Source/Test.swift; sourceTree = "<group>"; };
 		EB86D96067A5F5F341A61BEF520AEB2E /* Pods_OTPPinEntryViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTPPinEntryViewExample.framework; path = "Pods-OTPPinEntryViewExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4D38830D06E83886F4904CA23B2C14F /* OTPPinEntryView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPPinEntryView-prefix.pch"; sourceTree = "<group>"; };
 		F7CD404307BB3FF3EC4A125E8371D40B /* Pods-OTPPinEntryViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPPinEntryViewExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7A39D76275FAB0F5B0432CCFABDD91E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165AD07067171BC219EAB230DE4C0F22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9EB1F61AC63C8F0CCDF2637A0C868F36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,17 +72,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9E7994D8C50C5E16E8F04A612B67737 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4515F48E7CB0474121E0D4FD876A2F4C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		373ECD4767FC9BAF13B340943195CCDB /* OTPPinEntryView */ = {
+			isa = PBXGroup;
+			children = (
+				3C438392EEDE2A3F9FF4AA288601D31F /* OTPPinEntryTextField.swift */,
+				4CE2A56E8611A61C0AAC5654C6D96357 /* OTPPinEntryView.swift */,
+				A6AA23C61D12310757300C1B5FAF56BC /* Pod */,
+				A3E0A1DD20A9214F97A6EF0759892519 /* Support Files */,
+			);
+			name = OTPPinEntryView;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		3A486959698231A863EB82261BC47BDD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				373ECD4767FC9BAF13B340943195CCDB /* OTPPinEntryView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		68729925714F16F640161D89AE5BCECB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,38 +104,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		805687174D4072E329119F7185E30BCA /* Development Pods */ = {
+		A3E0A1DD20A9214F97A6EF0759892519 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				98263D41AEFBFE4C79EFA7BDB3EF131A /* OTPPinEntryView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		98263D41AEFBFE4C79EFA7BDB3EF131A /* OTPPinEntryView */ = {
-			isa = PBXGroup;
-			children = (
-				E9149B357C3485E7611F5212240C766F /* Test.swift */,
-				C22E3B837B12A07A5613E05B848BAC06 /* Pod */,
-				9E119336DFCA3A8D437D550786BDF7BC /* Support Files */,
-			);
-			name = OTPPinEntryView;
-			path = ../../..;
-			sourceTree = "<group>";
-		};
-		9E119336DFCA3A8D437D550786BDF7BC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				33A7D66F8342D94F31FA86DB89EE46C9 /* OTPPinEntryView.modulemap */,
-				A6AF974CFC12D08F949C7409D68DAB08 /* OTPPinEntryView-dummy.m */,
-				A72B883375A8A189A4AB902D97C6D553 /* OTPPinEntryView-Info.plist */,
-				F4D38830D06E83886F4904CA23B2C14F /* OTPPinEntryView-prefix.pch */,
-				63227D4E4752480B9BEB22FCD5B99E23 /* OTPPinEntryView-umbrella.h */,
-				B489C404EF323683779FCEE61077090A /* OTPPinEntryView.debug.xcconfig */,
-				7ABF2FDBF8E7F5683FD95B71190D2D4E /* OTPPinEntryView.release.xcconfig */,
+				77629792BF1718085E6A09BEE2FCF3CE /* OTPPinEntryView.modulemap */,
+				2BD79EB74BD32C6F89D5B2CFC207D155 /* OTPPinEntryView-dummy.m */,
+				C2782CF59080ED578AAF3704849A5CB4 /* OTPPinEntryView-Info.plist */,
+				CB97A366F501876157D84529B295A772 /* OTPPinEntryView-prefix.pch */,
+				803CAC0A3FB50CD3ABAF7EA108B411D7 /* OTPPinEntryView-umbrella.h */,
+				14655144941E776DAA6B1F577C4BC92D /* OTPPinEntryView.debug.xcconfig */,
+				A4D142F31536AD0E762966D06E263E2B /* OTPPinEntryView.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "OTPPinEntryView/Example/Pods/Target Support Files/OTPPinEntryView";
+			sourceTree = "<group>";
+		};
+		A6AA23C61D12310757300C1B5FAF56BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1F2D10820DA7F2991954ED887F23E712 /* LICENSE */,
+				7EB1F0711044D76B4EE39ED3616696A6 /* OTPPinEntryView.podspec */,
+				D13A6F87681F27990B7D84A13AF2FFE7 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -122,19 +137,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C22E3B837B12A07A5613E05B848BAC06 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				157072A11297A3FDCC6F682100A121BF /* OTPPinEntryView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				805687174D4072E329119F7185E30BCA /* Development Pods */,
+				3A486959698231A863EB82261BC47BDD /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				68729925714F16F640161D89AE5BCECB /* Products */,
 				D77355A1311B0FD0003BA8EC5CB8D38D /* Targets Support Files */,
@@ -177,11 +184,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A3CB27B2315068CF918E17DD145686BA /* Headers */ = {
+		51DD575B5EF906730D3CFA60ADAC626B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B221358E1444E951B0B3C1A5079AE346 /* OTPPinEntryView-umbrella.h in Headers */,
+				73E6A2179D8FC4F9620073070B916658 /* OTPPinEntryView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,12 +205,12 @@
 /* Begin PBXNativeTarget section */
 		25E9A0FAD0FE6F72143F8D845926D7C1 /* OTPPinEntryView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9405942380C26ABC85B9DBDF4F21CB0E /* Build configuration list for PBXNativeTarget "OTPPinEntryView" */;
+			buildConfigurationList = 7F6719A719DB1FB591CF37B7615FFE6B /* Build configuration list for PBXNativeTarget "OTPPinEntryView" */;
 			buildPhases = (
-				A3CB27B2315068CF918E17DD145686BA /* Headers */,
-				69B4CAF533D966CDC08A8D98C7CEB242 /* Sources */,
-				B9E7994D8C50C5E16E8F04A612B67737 /* Frameworks */,
-				0B28BE8D63F7CA1D1B3AEA8DF4047136 /* Resources */,
+				51DD575B5EF906730D3CFA60ADAC626B /* Headers */,
+				83BFFECBEA458FAAF7EFE48477DED3B1 /* Sources */,
+				7A39D76275FAB0F5B0432CCFABDD91E8 /* Frameworks */,
+				0E9A7BA53A3469F7953F9CFE42D05D66 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -262,7 +269,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0B28BE8D63F7CA1D1B3AEA8DF4047136 /* Resources */ = {
+		0E9A7BA53A3469F7953F9CFE42D05D66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,12 +286,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		69B4CAF533D966CDC08A8D98C7CEB242 /* Sources */ = {
+		83BFFECBEA458FAAF7EFE48477DED3B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79E983A44D07CD0839A8162D7519125D /* OTPPinEntryView-dummy.m in Sources */,
-				2BA405168795340E657D689C33269FB6 /* Test.swift in Sources */,
+				8399BFDB31166A7DDFAC1BC32B19573F /* OTPPinEntryTextField.swift in Sources */,
+				8627DB8EFAAE49F3153EC86326DA7656 /* OTPPinEntryView-dummy.m in Sources */,
+				6E89E42C5E579639706D4FF4C9EC162A /* OTPPinEntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,42 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08E92A51903D697F90D15637DAF0AD78 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B489C404EF323683779FCEE61077090A /* OTPPinEntryView.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OTPPinEntryView/OTPPinEntryView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OTPPinEntryView/OTPPinEntryView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/OTPPinEntryView/OTPPinEntryView.modulemap";
-				PRODUCT_MODULE_NAME = OTPPinEntryView;
-				PRODUCT_NAME = OTPPinEntryView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4E79DA8B5245A9F4F54458DFDBD09884 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C89F77BCA6759749FC23A65854A9999E /* Pods-OTPPinEntryViewExample.release.xcconfig */;
@@ -545,9 +517,45 @@
 			};
 			name = Release;
 		};
-		A0870652825AD0696891CD1BB606903B /* Release */ = {
+		7E8A9866D7FCA8FD3FD70378671085D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ABF2FDBF8E7F5683FD95B71190D2D4E /* OTPPinEntryView.release.xcconfig */;
+			baseConfigurationReference = 14655144941E776DAA6B1F577C4BC92D /* OTPPinEntryView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTPPinEntryView/OTPPinEntryView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTPPinEntryView/OTPPinEntryView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OTPPinEntryView/OTPPinEntryView.modulemap";
+				PRODUCT_MODULE_NAME = OTPPinEntryView;
+				PRODUCT_NAME = OTPPinEntryView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83494EEE1147A64A2F93E3D81A7582CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D142F31536AD0E762966D06E263E2B /* OTPPinEntryView.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -594,20 +602,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7F6719A719DB1FB591CF37B7615FFE6B /* Build configuration list for PBXNativeTarget "OTPPinEntryView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8A9866D7FCA8FD3FD70378671085D7 /* Debug */,
+				83494EEE1147A64A2F93E3D81A7582CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		919ADB3F575918D1F406A67F299CD769 /* Build configuration list for PBXNativeTarget "Pods-OTPPinEntryViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53DBC891BC3710245DEDEF6FA458EFB4 /* Debug */,
 				4E79DA8B5245A9F4F54458DFDBD09884 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9405942380C26ABC85B9DBDF4F21CB0E /* Build configuration list for PBXNativeTarget "OTPPinEntryView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				08E92A51903D697F90D15637DAF0AD78 /* Debug */,
-				A0870652825AD0696891CD1BB606903B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
