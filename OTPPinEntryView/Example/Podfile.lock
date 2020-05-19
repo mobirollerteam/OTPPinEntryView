@@ -1,0 +1,16 @@
+PODS:
+  - OTPPinEntryView (1.0.0)
+
+DEPENDENCIES:
+  - OTPPinEntryView (from `../../`)
+
+EXTERNAL SOURCES:
+  OTPPinEntryView:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  OTPPinEntryView: 09241e95ee05e3eef22ea1254c665e2dd2a83031
+
+PODFILE CHECKSUM: f74f976346743bf33e8cd56c3974c9c24700cb81
+
+COCOAPODS: 1.9.1

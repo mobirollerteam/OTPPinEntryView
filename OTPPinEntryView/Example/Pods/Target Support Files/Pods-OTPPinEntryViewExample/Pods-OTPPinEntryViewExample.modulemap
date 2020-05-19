@@ -1,0 +1,6 @@
+framework module Pods_OTPPinEntryViewExample {
+  umbrella header "Pods-OTPPinEntryViewExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

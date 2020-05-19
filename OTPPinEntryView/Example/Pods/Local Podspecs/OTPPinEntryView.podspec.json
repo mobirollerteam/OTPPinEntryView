@@ -1,0 +1,17 @@
+{
+  "name": "OTPPinEntryView",
+  "version": "1.0.0",
+  "summary": "A short description of OTPPinEntryView.",
+  "description": "simple description of OTPPinEntryView",
+  "homepage": "http://EXAMPLE/OTPPinEntryView",
+  "authors": {
+    "Furkan KAPLAN": "furkankaplan@outlook.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "OTPPinEntryView/Source"
+}

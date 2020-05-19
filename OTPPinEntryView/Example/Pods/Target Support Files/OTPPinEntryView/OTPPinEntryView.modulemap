@@ -1,0 +1,6 @@
+framework module OTPPinEntryView {
+  umbrella header "OTPPinEntryView-umbrella.h"
+
+  export *
+  module * { export * }
+}
