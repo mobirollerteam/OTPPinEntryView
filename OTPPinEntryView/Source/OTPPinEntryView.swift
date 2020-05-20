@@ -114,10 +114,21 @@ extension OTPPinEntryView: OTPPinEntryTextFieldDelegate {
     
     public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
-        textField.text = string
-                
-        self.checkValidity()
+        let allTextFields = self.containerView.arrangedSubviews as? [OTPPinEntryTextField]
+
+        if string.count > 1  {
+            for (index, value) in string.enumerated() {
+                allTextFields?[index].text = String(value)
+                resignNextTextField(of: textField, with: +1)
+            }
+            
+            return false
+        }
         
+        textField.text = string
+
+        self.checkValidity()
+
         if let text = textField.text, text.count > 0 {
             if string == "" {
 
@@ -125,15 +136,15 @@ extension OTPPinEntryView: OTPPinEntryTextFieldDelegate {
 
                 return true
             }
-                                    
+
             resignNextTextField(of: textField, with: +1)
-            
+
             return false
         }
-        
+
 
         resignNextTextField(of: textField, with: +1)
-        
+
         return true
     }
     
