@@ -11,12 +11,21 @@ import OTPPinEntryView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var pinView: OTPPinEntryView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        pinView.delegate = self
+        pinView.count = 6
     }
-
 
 }
 
+extension ViewController: OTPPingEntryViewDelegate {
+    
+    func otpPinEntry(string text: String) {
+        print(text)
+    }
+    
+}
