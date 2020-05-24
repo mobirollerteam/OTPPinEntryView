@@ -84,6 +84,7 @@ public class OTPPinEntryView: UIView {
                 field.textAlignment = alignment
                 field.font = font
                 field.isSecureTextEntry = isSecure
+                field.keyboardType = .numberPad
             }
         }
     }
