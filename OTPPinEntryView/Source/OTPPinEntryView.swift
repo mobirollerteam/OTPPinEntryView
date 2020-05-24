@@ -133,27 +133,31 @@ extension OTPPinEntryView: OTPPinEntryTextFieldDelegate {
             return false
         }
         
-        textField.text = string
-
-        self.checkValidity()
-
         if let text = textField.text, text.count > 0 {
             if string == "" {
+                textField.text = string
 
-                resignNextTextField(of: textField, with: -1)
+                self.checkValidity()
 
-                return true
+                return false
             }
+            
+            textField.text = string
+
+            self.checkValidity()
 
             resignNextTextField(of: textField, with: +1)
 
             return false
         }
 
+        textField.text = string
+
+        self.checkValidity()
 
         resignNextTextField(of: textField, with: +1)
 
-        return true
+        return false
     }
     
     public func textFieldDidBeginEditing(_ textField: UITextField) {
