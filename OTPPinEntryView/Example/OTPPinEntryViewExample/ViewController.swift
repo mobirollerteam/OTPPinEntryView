@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         pinView.delegate = self
+        pinView.isSecure = true
         pinView.count = 6
     }
 
