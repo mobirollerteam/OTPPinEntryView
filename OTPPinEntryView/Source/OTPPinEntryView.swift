@@ -61,6 +61,8 @@ public class OTPPinEntryView: UIView {
     
     public var font: UIFont = .systemFont(ofSize: 20, weight: .bold)
     
+    public var isSecure: Bool = false
+    
     public var count: Int = 0 {
         didSet {
             for indice in 0..<count {
@@ -81,6 +83,7 @@ public class OTPPinEntryView: UIView {
                 field.layer.borderColor = borderColor
                 field.textAlignment = alignment
                 field.font = font
+                field.isSecureTextEntry = isSecure
             }
         }
     }
