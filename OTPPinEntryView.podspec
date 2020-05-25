@@ -17,16 +17,16 @@ Pod::Spec.new do |spec|
 
   spec.name         = "OTPPinEntryView"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of OTPPinEntryView."
+  spec.summary      = "Apple style OTP Pin Entry View."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "simple description of OTPPinEntryView"
+  spec.description  = "OTPPinEntryView framework provides you the simple view containing multiple textfield for handling OTP. It's totally designed for simplicity and usability. Apple's one time code feature is also available in your view."
 
-  spec.homepage     = "http://EXAMPLE/OTPPinEntryView"
+  spec.homepage     = "https://github.com/furkankaplan/OTPPinEntryView"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -54,7 +54,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Furkan KAPLAN" => "furkankaplan@outlook.com" }
   # Or just: spec.author    = "Furkan KAPLAN"
   # spec.authors            = { "Furkan KAPLAN" => "furkankaplan@outlook.com" }
-  # spec.social_media_url   = "https://twitter.com/Furkan KAPLAN"
+  spec.social_media_url   = "https://twitter.com/furkaplan"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -78,8 +78,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  #spec.source       = { :git => "http://EXAMPLE/OTPPinEntryView.git", :tag => "#{spec.version}" }
-  spec.source = { :path => "." }
+  spec.source       = { :git => "https://github.com/furkankaplan/OTPPinEntryView.git", :tag => "#{spec.version}" }
+  #spec.source = { :path => "." }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
