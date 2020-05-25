@@ -122,12 +122,15 @@ extension OTPPinEntryView: OTPPinEntryTextFieldDelegate {
             return false
         }
         
-        let allTextFields = self.containerView.arrangedSubviews as? [OTPPinEntryTextField]
-
+        guard let allTextFields = self.containerView.arrangedSubviews as? [OTPPinEntryTextField] else { return false }
+        
         if string.count > 1  {
             for (index, value) in string.enumerated() {
-                allTextFields?[index].text = String(value)
-                resignNextTextField(of: textField, with: +1)
+                if index > allTextFields.count-1 {
+                    break
+                }
+                allTextFields[index].text = String(value)
+                resignNextTextField(of: allTextFields[index], with: +1)
             }
             
             return false
