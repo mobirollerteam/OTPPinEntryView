@@ -10,6 +10,8 @@ You can add OTPPinEntryView by using CocoaPods.
 pod 'OTPPinEntryView'
 ```
 
+<img src="OTPPinEntryView/Screenshot/implementation-example.mov" width="30%" height="30%"/>
+
 ## How to use?
 
 As a default, number of digit of OTP is **zero**. Because of that you **must** define the length of your otp code. And you must assign a referance to **delegate** to handle the otp successfully inputted.
