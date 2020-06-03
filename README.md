@@ -10,7 +10,7 @@ You can add OTPPinEntryView by using CocoaPods.
 pod 'OTPPinEntryView'
 ```
 
-<img src="OTPPinEntryView/Screenshot/implementation-example.mov" width="30%" height="30%"/>
+<img src="OTPPinEntryView/Screenshot/implementation-example.gif" width="30%" height="30%"/>
 
 ## How to use?
 
