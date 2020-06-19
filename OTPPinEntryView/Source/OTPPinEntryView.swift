@@ -111,8 +111,8 @@ public class OTPPinEntryView: UIView {
         self.containerView.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor).isActive = true
         self.containerView.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor).isActive = true
         self.containerView.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor).isActive = true
-        self.containerView.axis = .horizontal;
-        self.containerView.spacing = spacing;
+        self.containerView.axis = .horizontal
+        self.containerView.spacing = spacing
         self.containerView.distribution = .fill
     }
 
@@ -122,7 +122,7 @@ extension OTPPinEntryView: OTPPinEntryTextFieldDelegate {
     
     public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
-        if (textField.text ?? "").count < 1 && string.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
+        if (textField.text ?? "").count < 1 && string.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
             return false
         }
         
@@ -141,7 +141,7 @@ extension OTPPinEntryView: OTPPinEntryTextFieldDelegate {
         }
         
         if let text = textField.text, text.count > 0 {
-            if string == "" {
+            if string.isEmpty {
                 textField.text = string
 
                 self.checkValidity()
