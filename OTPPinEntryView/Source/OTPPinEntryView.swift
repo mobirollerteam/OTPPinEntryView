@@ -47,7 +47,11 @@ public class OTPPinEntryView: UIView {
     
     public var size: Int = 50
     
-    public var spacing: CGFloat = 10
+    public var spacing: CGFloat = 10 {
+        didSet {
+            self.containerView.spacing = spacing
+        }
+    }
     
     public var cornerRadius: CGFloat = 10
     
